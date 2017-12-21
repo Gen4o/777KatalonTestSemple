@@ -2,4 +2,9 @@
 <GlobalVariableEntities>
    <description></description>
    <tag></tag>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://777score.com'</initValue>
+      <name>main_page</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

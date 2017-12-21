@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WS.sendRequest(findTestObject('https://777score.com'))
+def response = WS.sendRequest(findTestObject('main_page'))
 
-WS.verifyResponseStatusCode('https://777score.com', 200)
+WS.verifyResponseStatusCode(response, 200)
 

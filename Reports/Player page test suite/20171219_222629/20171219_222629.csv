@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Player page test suite,,,2017-12-19 22:26:37,2017-12-19 22:27:08,30.748s,FAILED
+,,,,,,
+Test Cases/Check player carreer table present,,,2017-12-19 22:26:39,2017-12-19 22:27:01,21.833s,FAILED
+Start listener action : sampleBeforeTestCase,,,2017-12-19 22:26:39,2017-12-19 22:26:39,0.072s,PASSED
+openBrowser,,,2017-12-19 22:26:40,2017-12-19 22:27:01,20.885s,FAILED
+verifyElementAttributeValue,,,2017-12-19 22:27:01,2017-12-19 22:27:01,0.097s,FAILED
+closeBrowser,,,2017-12-19 22:27:01,2017-12-19 22:27:01,0.037s,PASSED
+,,,,,,
+Test Cases/Check player name test,,,2017-12-19 22:27:01,2017-12-19 22:27:05,4.066s,FAILED
+Start listener action : sampleBeforeTestCase,,,2017-12-19 22:27:01,2017-12-19 22:27:01,0.007s,PASSED
+openBrowser,,,2017-12-19 22:27:01,2017-12-19 22:27:05,3.623s,FAILED
+getText,,,2017-12-19 22:27:05,2017-12-19 22:27:05,0.078s,FAILED
+verifyElementAttributeValue,,,2017-12-19 22:27:05,2017-12-19 22:27:05,0.118s,FAILED
+closeBrowser,,,2017-12-19 22:27:05,2017-12-19 22:27:05,0.002s,PASSED
+,,,,,,
+Test Cases/Check player photo test,,,2017-12-19 22:27:05,2017-12-19 22:27:08,2.376s,FAILED
+Start listener action : sampleBeforeTestCase,,,2017-12-19 22:27:05,2017-12-19 22:27:05,0.006s,PASSED
+openBrowser,,,2017-12-19 22:27:06,2017-12-19 22:27:08,2.022s,FAILED
+verifyElementAttributeValue,,,2017-12-19 22:27:08,2017-12-19 22:27:08,0.010s,FAILED
+closeBrowser,,,2017-12-19 22:27:08,2017-12-19 22:27:08,0.001s,PASSED

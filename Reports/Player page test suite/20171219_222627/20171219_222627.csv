@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Player page test suite,Chrome 63.0.3239.84,,2017-12-19 22:26:33,2017-12-19 22:27:17,43.201s,PASSED
+,,,,,,
+Test Cases/Check player carreer table present,Chrome 63.0.3239.84,,2017-12-19 22:26:35,2017-12-19 22:26:53,17.692s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.84,,2017-12-19 22:26:35,2017-12-19 22:26:35,0.190s,PASSED
+openBrowser,Chrome 63.0.3239.84,,2017-12-19 22:26:36,2017-12-19 22:26:51,15.213s,PASSED
+verifyElementAttributeValue,Chrome 63.0.3239.84,,2017-12-19 22:26:51,2017-12-19 22:26:52,0.433s,PASSED
+closeBrowser,Chrome 63.0.3239.84,,2017-12-19 22:26:52,2017-12-19 22:26:53,1.115s,PASSED
+,,,,,,
+Test Cases/Check player name test,Chrome 63.0.3239.84,,2017-12-19 22:26:53,2017-12-19 22:27:05,11.861s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.84,,2017-12-19 22:26:53,2017-12-19 22:26:53,0.005s,PASSED
+openBrowser,Chrome 63.0.3239.84,,2017-12-19 22:26:53,2017-12-19 22:27:04,10.459s,PASSED
+getText,Chrome 63.0.3239.84,,2017-12-19 22:27:04,2017-12-19 22:27:04,0.146s,PASSED
+verifyElementAttributeValue,Chrome 63.0.3239.84,,2017-12-19 22:27:04,2017-12-19 22:27:04,0.046s,PASSED
+closeBrowser,Chrome 63.0.3239.84,,2017-12-19 22:27:04,2017-12-19 22:27:05,0.875s,PASSED
+,,,,,,
+Test Cases/Check player photo test,Chrome 63.0.3239.84,,2017-12-19 22:27:05,2017-12-19 22:27:17,11.875s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.84,,2017-12-19 22:27:05,2017-12-19 22:27:05,0.004s,PASSED
+openBrowser,Chrome 63.0.3239.84,,2017-12-19 22:27:05,2017-12-19 22:27:15,10.148s,PASSED
+verifyElementAttributeValue,Chrome 63.0.3239.84,,2017-12-19 22:27:15,2017-12-19 22:27:16,0.250s,PASSED
+closeBrowser,Chrome 63.0.3239.84,,2017-12-19 22:27:16,2017-12-19 22:27:17,0.953s,PASSED

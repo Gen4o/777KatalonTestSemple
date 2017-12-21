@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Player page test suite" time="30" tests="0" failures="3" errors="0">
+   <testsuite name="Player page test suite" tests="0" failures="3" errors="0" time="30" timestamp="2017-12-19 22:26:37" hostname="Gennadii - DESKTOP-FVLAG75" id="Test Suites/Player page test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\work\\New folder\\777TestSemple\\Reports\\Player page test suite\\20171219_222629"/>
+         <property name="logFiles" value="D:\\work\\New folder\\777TestSemple\\Reports\\Player page test suite\\20171219_222629\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gennadii - DESKTOP-FVLAG75"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Check player carreer table present" classname="Test Cases/Check player carreer table present" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2017-12-19 22:26:39 - [TEST_CASE][FAILED] - Test Cases/Check player carreer table present: Test Cases/Check player carreer table present FAILED because (of) Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-19 22:26:39 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2017-12-19 22:26:39 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2017-12-19 22:26:39 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2017-12-19 22:26:40 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-19 22:27:01 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-19 22:27:01 - [TEST_STEP][FAILED] - verifyElementAttributeValue: Unable to verify if object 'Object Repository/Player_page/Page_Petr_Cech Arsenal statistics/li_career' has attribute 'innerText' with value 'CAREER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-19 22:27:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-19 22:27:01 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-19 22:27:01 - [MESSAGE][FAILED] - Unable to verify if object 'Object Repository/Player_page/Page_Petr_Cech Arsenal statistics/li_career' has attribute 'innerText' with value 'CAREER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-19 22:27:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-19 22:27:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-12-19 22:26:39 - [TEST_CASE][FAILED] - Test Cases/Check player carreer table present: Test Cases/Check player carreer table present FAILED because (of) Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Check player name test" classname="Test Cases/Check player name test" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:47994 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)"/>
+         <system-out><![CDATA[2017-12-19 22:27:01 - [TEST_CASE][FAILED] - Test Cases/Check player name test: Test Cases/Check player name test FAILED because (of) Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:47994 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)
+
+2017-12-19 22:27:01 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2017-12-19 22:27:01 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2017-12-19 22:27:01 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2017-12-19 22:27:01 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:47994 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)
+
+2017-12-19 22:27:05 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:47994 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)
+
+2017-12-19 22:27:05 - [TEST_STEP][FAILED] - getText: Unable to get text of object 'Object Repository/Player_page/Page_Petr_Cech Arsenal statistics/h1_Petr Cech' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-19 22:27:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-19 22:27:05 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Player_page/Page_Petr_Cech Arsenal statistics/h1_Petr Cech' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-19 22:27:05 - [TEST_STEP][FAILED] - verifyElementAttributeValue: Unable to verify if object 'Object Repository/Player_page/Page_Petr_Cech Arsenal statistics/h1_Petr Cech' has attribute 'innerText' with value 'PETR CECH' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-19 22:27:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-19 22:27:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-19 22:27:05 - [MESSAGE][FAILED] - Unable to verify if object 'Object Repository/Player_page/Page_Petr_Cech Arsenal statistics/h1_Petr Cech' has attribute 'innerText' with value 'PETR CECH' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-19 22:27:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-19 22:27:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-12-19 22:27:01 - [TEST_CASE][FAILED] - Test Cases/Check player name test: Test Cases/Check player name test FAILED because (of) Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:47994 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Check player photo test" classname="Test Cases/Check player photo test" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:47994 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)"/>
+         <system-out><![CDATA[2017-12-19 22:27:05 - [TEST_CASE][FAILED] - Test Cases/Check player photo test: Test Cases/Check player photo test FAILED because (of) Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:47994 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)
+
+2017-12-19 22:27:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2017-12-19 22:27:05 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2017-12-19 22:27:05 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2017-12-19 22:27:06 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:47994 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)
+
+2017-12-19 22:27:08 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:47994 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)
+
+2017-12-19 22:27:08 - [TEST_STEP][FAILED] - verifyElementAttributeValue: Unable to verify if object 'Object Repository/Player_page/Page_Petr_Cech Arsenal statistics/img_photo' has attribute 'localName' with value 'img' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-19 22:27:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-19 22:27:08 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-19 22:27:08 - [MESSAGE][FAILED] - Unable to verify if object 'Object Repository/Player_page/Page_Petr_Cech Arsenal statistics/img_photo' has attribute 'localName' with value 'img' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-19 22:27:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-19 22:27:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-12-19 22:27:05 - [TEST_CASE][FAILED] - Test Cases/Check player photo test: Test Cases/Check player photo test FAILED because (of) Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:47994 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-19 22:26:37 - [TEST_SUITE][FAILED] - Player page test suite: Test Cases/Check player carreer table present FAILED because (of) Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2017-12-19 22:26:37 - [TEST_SUITE][FAILED] - Player page test suite: Test Cases/Check player carreer table present FAILED because (of) Unable to open browser with url: 'https://777score.com/football/players/petr-cech-15035' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-FVLAG75', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

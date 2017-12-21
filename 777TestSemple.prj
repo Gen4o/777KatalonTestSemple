@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Sample for new Katalone project</description>
+   <name>777TestSemple</name>
+   <tag></tag>
+   <UUID>ed7190f1-9cba-4822-b515-cd9887f48df0</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

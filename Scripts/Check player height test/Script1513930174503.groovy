@@ -19,7 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-def response = WS.sendRequest(findTestObject('777score'))
+WebUI.openBrowser('https://777score.com/football/players/petr-cech-15035')
 
-WS.verifyResponseStatusCode(response, 200)
+WebUI.getText(findTestObject('Player_page/Page_Petr_Cech Arsenal statistics/span_height_full'))
+
+WebUI.verifyElementAttributeValue(findTestObject('Player_page/Page_Petr_Cech Arsenal statistics/span_height_full'), 'innerText', 
+    'Height: 196 sm', 0)
+
+WebUI.closeBrowser()
 

@@ -29,5 +29,6 @@ String date2 = WebUI.getText(findTestObject('Object Repository/Page_Nea Salamina
 
 WebUI.verifyEqual(date2, date1)
 
+'close browser'
 WebUI.closeBrowser()
 

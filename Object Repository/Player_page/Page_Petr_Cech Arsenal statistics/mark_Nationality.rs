@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mark_Nationality</name>
+   <tag></tag>
+   <elementGuidId>26f016b1-3717-42e7-8fea-a9dbfe0272c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>.//*[@class='player-info']//mark[text()='Nationality']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mark</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Position : </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[1]/div[1]/div[@class=&quot;main-page&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;player-page&quot;]/div[@class=&quot;info&quot;]/div[@class=&quot;info-container&quot;]/div[@class=&quot;player-info&quot;]/div[1]/span[3]/mark[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -19,16 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://777score.com/football/matches/nea-salamina-doxa-21-12-2017-279449')
+WebUI.openBrowser('https://777score.com/football/players/petr-cech-15035')
 
-String date1 = WebUI.getText(findTestObject('Object Repository/Page_Nea Salamina vs Doxa 21.12.201/date_of_match'))
+WebUI.getText(findTestObject('Player_page/Page_Petr_Cech Arsenal statistics/span_height_full'))
 
-WebUI.navigateToUrl('https://777score.com/football/matches/antwerp-lokeren-21-12-2017-250567')
+WebUI.verifyElementAttributeValue(findTestObject('Player_page/Page_Petr_Cech Arsenal statistics/span_height_full'), 'innerText', 
+    'Height: 196 sm', 0)
 
-String date2 = WebUI.getText(findTestObject('Object Repository/Page_Nea Salamina vs Doxa 21.12.201/date_of_match'))
-
-WebUI.verifyEqual(date2, date1)
-
-'close browser'
 WebUI.closeBrowser()
 

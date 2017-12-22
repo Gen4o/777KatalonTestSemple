@@ -21,8 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://777score.com/football/players/petr-cech-15035')
 
-WebUI.verifyElementAttributeValue(findTestObject('Player_page/Page_Petr_Cech Arsenal statistics/img_photo'), 
-    'localName', 'img', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Player_page/Page_Petr_Cech Arsenal statistics/img_photo'), 'localName', 
+    'img', 0)
 
 WebUI.closeBrowser()
 
